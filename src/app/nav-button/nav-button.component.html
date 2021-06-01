@@ -1,0 +1,10 @@
+<button class="noselect nav-button" [style.background-image]="'url(' + img_url + ')'"
+    (mousedown)="press()"
+    (click)="click()"
+    (blur)="unpress()"
+    (mouseout)="unpress()">
+</button>
+
+<img [style.background-image]="'url(' + button.base_img + ')'">
+<img [style.background-image]="'url(' + button.pressed_img + ')'">
+<img [style.background-image]="'url(' + button.active_img + ')'">

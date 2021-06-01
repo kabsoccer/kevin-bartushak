@@ -1,0 +1,7 @@
+<div class="vert-icon-container v-flex">
+    <app-nav-button *ngFor="let button of buttonList"
+        [button]="button"
+        [isActive]="button.isActive"
+        (clickEvent)="updateActiveButton($event)">
+    </app-nav-button>
+</div>

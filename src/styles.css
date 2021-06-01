@@ -1,1 +1,155 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    cursor: url("assets/ui/cursor-opaque.png") 4 1, auto;
+    font-family: "pixel";
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+*:active {
+    cursor: url("assets/ui/cursor-click-opaque.png") 4 1, auto;
+}
+
+body {
+    background-color: #95A664;
+}
+
+table {
+    border-spacing:0;
+    border-collapse: collapse; 
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: normal;
+    color: #32434d;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #506768;
+}
+
+p {
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #32434d;
+    -webkit-box-shadow: inset 0 0 0 0 #32434d;
+    -webkit-box-decoration-break: clone;
+    transition: all ease 0.3s;
+    color: #32434d;
+}
+
+a:hover {
+    box-shadow: inset 300px 0 0 0 #32434d;
+    -webkit-box-shadow: inset 300px 0 0 0 #32434d;
+    color: white;
+}
+
+.subtitle {
+    color: #506768;
+    font-style: italic;
+}
+
+.img-subtitle {
+    color: #506768;
+    font-style: italic;
+    margin: 0 40px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.h-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.v-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-grow-half {
+    flex-grow: .5;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.img-grid {
+    justify-content: space-evenly;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grid-cell {
+    padding: 30px;
+}
+
+.grid-cell img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@font-face {
+    font-family: "Pixel";
+    src: local("Pixel"), url(./assets/fonts/pixel.ttf) format("truetype");
+}
+
+.section-container {
+    padding: 30px 0;
+    max-width: 1280px;
+}
+
+.section-container p,h1,h2,a {
+    margin-top: 15px;
+}
+
+.section-container *:first-child {
+    margin-top: 0;
+}
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+hr {
+    border-color: #32434d;
+    margin: 30px 0;
+}

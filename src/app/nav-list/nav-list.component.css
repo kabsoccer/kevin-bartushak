@@ -1,0 +1,12 @@
+.vert-icon-container {
+    background-color: #6C875A;
+    height: 100%;
+}
+
+.vert-icon-container app-nav-button:first-child {
+    margin-top: 44px;
+}
+
+app-nav-button {
+    padding: 20px;
+}
