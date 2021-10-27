@@ -2,36 +2,36 @@
     {
       "name": "About Me",
       "index": 0,
-      "base_img": "/assets/ui/buttons/button-about-unpressed.png",
-      "pressed_img": "/assets/ui/buttons/button-about-pressed.png",
-      "active_img": "/assets/ui/buttons/button-about-active.png",
+      "base_img": "/kevin-bartushak/assets/ui/buttons/button-about-unpressed.png",
+      "pressed_img": "/kevin-bartushak/assets/ui/buttons/button-about-pressed.png",
+      "active_img": "/kevin-bartushak/assets/ui/buttons/button-about-active.png",
       "isActive": true,
       "url": "/about-me"
     },
     {
         "name": "Game Dev",
         "index": 1,
-        "base_img": "/assets/ui/buttons/button-game-unpressed.png",
-        "pressed_img": "/assets/ui/buttons/button-game-pressed.png",
-        "active_img": "/assets/ui/buttons/button-game-active.png",
+        "base_img": "/kevin-bartushak/assets/ui/buttons/button-game-unpressed.png",
+        "pressed_img": "/kevin-bartushak/assets/ui/buttons/button-game-pressed.png",
+        "active_img": "/kevin-bartushak/assets/ui/buttons/button-game-active.png",
         "isActive": false,
         "url": "/game-dev"
     },
     {
       "name": "Design",
       "index": 2,
-      "base_img": "/assets/ui/buttons/button-web-unpressed.png",
-      "pressed_img": "/assets/ui/buttons/button-web-pressed.png",
-      "active_img": "/assets/ui/buttons/button-web-active.png",
+      "base_img": "/kevin-bartushak/assets/ui/buttons/button-web-unpressed.png",
+      "pressed_img": "/kevin-bartushak/assets/ui/buttons/button-web-pressed.png",
+      "active_img": "/kevin-bartushak/assets/ui/buttons/button-web-active.png",
       "isActive": false,
       "url": "/design"
     },
     {
       "name": "Music",
       "index": 3,
-      "base_img": "/assets/ui/buttons/button-music-unpressed.png",
-      "pressed_img": "/assets/ui/buttons/button-music-pressed.png",
-      "active_img": "/assets/ui/buttons/button-music-active.png",
+      "base_img": "/kevin-bartushak/assets/ui/buttons/button-music-unpressed.png",
+      "pressed_img": "/kevin-bartushak/assets/ui/buttons/button-music-pressed.png",
+      "active_img": "/kevin-bartushak/assets/ui/buttons/button-music-active.png",
       "isActive": false,
       "url": "/music"
     }

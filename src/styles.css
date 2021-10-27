@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    cursor: url("assets/ui/cursor-opaque.png") 4 1, auto;
+    cursor: url("/kevin-bartushak/assets/ui/cursor-opaque.png") 4 1, auto;
     font-family: "pixel";
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ html, body {
 }
 
 *:active {
-    cursor: url("assets/ui/cursor-click-opaque.png") 4 1, auto;
+    cursor: url("/kevin-bartushak/assets/ui/cursor-click-opaque.png") 4 1, auto;
 }
 
 body {
@@ -130,7 +130,7 @@ p {
 
 @font-face {
     font-family: "Pixel";
-    src: local("Pixel"), url(./assets/fonts/pixel.ttf) format("truetype");
+    src: local("Pixel"), url(/kevin-bartushak/assets/fonts/pixel.ttf) format("truetype");
 }
 
 .section-container {
