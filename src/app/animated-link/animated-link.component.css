@@ -1,0 +1,31 @@
+.link-img {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: absolute;
+    height: 24px;
+    top: -3px;
+    bottom: 0;
+    left: -3px;
+    right: 0;
+    display: none;
+    z-index: -1;
+}
+
+.link-container {
+    position: relative;
+}
+
+.link-container:hover .link-img {
+    display: inline-block;
+    z-index: -1;
+}
+
+.link-container a {
+    transition: all ease .3s;
+    color: #32434d;
+    font-size: 21px;
+}
+
+.link-container a:hover {
+    color: white;
+}

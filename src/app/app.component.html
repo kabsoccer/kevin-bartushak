@@ -1,8 +1,22 @@
 <div class="v-flex" id="main-container">
-  <div class="page-header">
+  <div class="page-header h-flex align-center">
     <h1>
       Kevin Bartushak
     </h1>
+    <div class="social-container h-flex">
+      <div class="social-link">
+        <a href="https://twitter.com/KbPixel" class="social-link" (mouseenter)="tooltip1.show()" (mouseleave)="tooltip1.hide()" target="_blank"><img src="/assets/images/twitter.png"></a>
+        <app-tooltip #tooltip1 [text]="'Twitter'" [position]="'bottom'"></app-tooltip>
+      </div>
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/kevin-bartushak/" class="social-link" (mouseenter)="tooltip2.show()" (mouseleave)="tooltip2.hide()" target="_blank"><img src="/assets/images/linkedin.png"></a>
+        <app-tooltip #tooltip2 [text]="'LinkedIn'" [position]="'bottom'"></app-tooltip>
+      </div>
+      <div class="social-link">
+        <a href="mailto:kevin.bartushak@gmail.com" class="social-link" (mouseenter)="tooltip3.show()" (mouseleave)="tooltip3.hide()" target="_blank"><img src="/assets/images/gmail.png"></a>
+        <app-tooltip #tooltip3 [text]="'Email'" [position]="'bottom'"></app-tooltip>
+      </div>
+    </div>
   </div>
   <div class="h-flex flex-grow">
     <app-nav-list></app-nav-list>
@@ -11,7 +25,10 @@
         <router-outlet></router-outlet>
       </div>
       <div class="footer h-flex">
-        <p>&#169; 2021 Kevin Bartushak</p>
+        <div class="v-flex align-center">
+          <p>Crafted with care, all assets and code created by me.</p>
+          <p>&#169; 2021 Kevin Bartushak</p>
+        </div>
       </div>
     </div>
   </div>

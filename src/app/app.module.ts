@@ -10,6 +10,8 @@ import { DesignPanelComponent } from './panels/design-panel/design-panel.compone
 import { MusicPanelComponent } from './panels/music-panel/music-panel.component';
 import { GameDevPanelComponent } from './panels/game-dev-panel/game-dev-panel.component';
 import { HomePanelComponent } from './panels/home-panel/home-panel.component';
+import { AnimatedLinkComponent } from './animated-link/animated-link.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomePanelComponent } from './panels/home-panel/home-panel.component';
     DesignPanelComponent,
     MusicPanelComponent,
     GameDevPanelComponent,
-    HomePanelComponent
+    HomePanelComponent,
+    AnimatedLinkComponent,
+    TooltipComponent
   ],
   imports: [
     BrowserModule,

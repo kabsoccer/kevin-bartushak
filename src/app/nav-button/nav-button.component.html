@@ -2,9 +2,12 @@
     (mousedown)="press()"
     (click)="click()"
     (blur)="unpress()"
-    (mouseout)="unpress()">
+    (mouseout)="unpress()"
+    (mouseenter)="showTooltip()"
+    (mouseleave)="hideTooltip()">
 </button>
 
 <img [style.background-image]="'url(' + button.base_img + ')'">
 <img [style.background-image]="'url(' + button.pressed_img + ')'">
 <img [style.background-image]="'url(' + button.active_img + ')'">
+<app-tooltip #tooltip [text]="button.name"></app-tooltip>

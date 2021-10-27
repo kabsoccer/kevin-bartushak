@@ -7,7 +7,7 @@ import { MusicPanelComponent } from './panels/music-panel/music-panel.component'
 import { DesignPanelComponent } from './panels/design-panel/design-panel.component';
 
 const routes: Routes = [
-  { path: '', component: HomePanelComponent },
+  { path: '', redirectTo: '/about-me', pathMatch: 'full' },
   { path: 'about-me', component: AboutMePanelComponent },
   { path: 'game-dev', component: GameDevPanelComponent },
   { path: 'design', component: DesignPanelComponent },

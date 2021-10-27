@@ -1,5 +1,6 @@
-import { Component, Input, OnInit, OnChanges, Output, EventEmitter } from '@angular/core';
+import { Component, Input, OnInit, OnChanges, Output, EventEmitter, ViewChild } from '@angular/core';
 import { Button } from '../data/Button';
+import { TooltipComponent } from '../tooltip/tooltip.component';
 
 @Component({
   selector: 'app-nav-button',
@@ -11,6 +12,8 @@ export class NavButtonComponent implements OnInit {
   @Input() button: Button;
   @Input() isActive: boolean;
   @Output() clickEvent = new EventEmitter<Button>();
+
+  @ViewChild('tooltip') tooltip!: TooltipComponent;
 
   img_url?: string;
   temp_url?: string;
@@ -55,5 +58,13 @@ export class NavButtonComponent implements OnInit {
   updateImg(): void {
     this.img_url = this.button.isActive ? this.button.active_img : this.button.base_img;
     this.temp_url = this.img_url;
+  }
+
+  showTooltip() {
+    this.tooltip.show();
+  }
+
+  hideTooltip() {
+    this.tooltip.hide();
   }
 }

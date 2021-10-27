@@ -5,7 +5,7 @@
       "base_img": "/assets/ui/buttons/button-about-unpressed.png",
       "pressed_img": "/assets/ui/buttons/button-about-pressed.png",
       "active_img": "/assets/ui/buttons/button-about-active.png",
-      "isActive": false,
+      "isActive": true,
       "url": "/about-me"
     },
     {

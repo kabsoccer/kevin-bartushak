@@ -20,7 +20,10 @@ export class NavListComponent implements OnInit {
     this.buttonList = buttonListData as Button[];
 
     let button = this.buttonList.find(button => button.url == this.location.path());
-    button ? button.isActive = true : null;
+    if (button) {
+      this.buttonList.forEach(b => b.isActive = false);
+      button.isActive = true;
+    }
   }
 
   updateActiveButton(event: Button): void {

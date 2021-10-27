@@ -9,11 +9,21 @@
 <div class="section-container">
     <p>My friends and I love gathering around the table to play some Magic: The Gathering's multiplayer Commander format. In this version of the game, we get to build awesome, fun, and sometimes janky decks that we can truly call our own. While nothing can compare to the paper format of MTG, Covid-19--along with friends relocating to other states--has made it impossible for our group to continue our tradition.</p>
 
-    <p>Fortunately for us, Tabletop Simulator supports custom decks that allow you to import cards and play with them just as you would in real life! The only challenge for us is creating the custom deck objects. For a while, our group used the card importer at <a href="https://www.frogtown.me/" target="_blank">frogtown.me</a>, but the non-user-friendly interface and having to wait for the creator to upload new cards frustrated me.</p>
+    <p class="inline">Fortunately for us, Tabletop Simulator supports custom decks that allow you to import cards and play with them just as you would in real life! The only challenge for us is creating the custom deck objects. For a while, our group used the card importer at&nbsp;</p>
+    <app-animated-link
+        [backImg]="'/assets/images/link-background.gif'"
+        [reverseImg]="'/assets/images/link-background-reverse.gif'"
+        [href]="'https://www.frogtown.me/'">frogtown.me</app-animated-link>
+    <p class="inline">, but the non-user-friendly interface and having to wait for the creator to upload new cards frustrated me.</p>
 </div>
 
 <div class="section-container">
-    <p>I knew that I could make improvements over the existing application, especially in the interface design. So after a week of brushing up on Angular, navigating the <a href="https://scryfall.com/docs/api" target="_blank">Scryfall API</a>, and learning how to import objects into Tabletop Simulator, I had a working application that I could share with my friends! Notable features that I added are:</p>
+    <p class="inline">I knew that I could make improvements over the existing application, especially in the interface design. So after a week of brushing up on Angular, navigating the&nbsp;</p>
+    <app-animated-link
+        [backImg]="'/assets/images/link-background.gif'"
+        [reverseImg]="'/assets/images/link-background-reverse.gif'"
+        [href]="'https://scryfall.com/docs/api'">Scryfall API</app-animated-link>
+    <p class="inline">, and learning how to import objects into Tabletop Simulator, I had a working application that I could share with my friends! Notable features that I added are:</p>
     <ul>
         <li><p>Easier commander selection and suggestions. This meant no more scrolling through all 100 cards to find the commander!</p></li>
         <li><p>A convenient way to set and show your card back, for that finishing customization of your deck. What's a unicorns deck without a matching card back?</p></li>
@@ -25,7 +35,11 @@
 <div class="section-container">
     <iframe id="cmdr-embed" src="https://kabsoccer.github.io/mtg-tts-importer/"></iframe>
     <div class="img-subtitle">
-        <p>The live CMD + R application. You can play around with the embedded version here, or <a href="https://kabsoccer.github.io/mtg-tts-importer/" target="_blank">check out the full application here</a>.</p>
+        <p class="inline">The live CMD + R application. You can play around with the embedded version here, or check out the&nbsp;</p>
+        <app-animated-link
+        [backImg]="'/assets/images/link-background.gif'"
+        [reverseImg]="'/assets/images/link-background-reverse.gif'"
+        [href]="'https://kabsoccer.github.io/mtg-tts-importer/'">full application here.</app-animated-link>
         <p>To try it out, paste the following sample into the deck list text area:</p>
         <p class="small">
             1 Arixmethes, Slumbering Isle<br>
@@ -42,6 +56,18 @@
 <hr>
 
 <div class="section-container">
+    <h2 id="3d-model">Personal Website</h2>
+    <p class="subtitle">Angular Web Application</p>
+    <p class="subtitle">Fall 2021</p>
+</div>
+
+<div class="section-container">
+    <p>I wouldn't want to discuss web design without mentioning the site you're currently browsing! I created this as a portfolio to show off some of my interests and skills. I saw this as a good opportunity to combine some of the pixel art skills I've acquired with my web design knowledge. All the assets and code were created by me for this site, and I hope you're enjoying the cozy feel.</p>
+</div>
+
+<hr>
+
+<div class="section-container">
     <h2 id="3d-model">3D Modeling</h2>
     <p class="subtitle">Blender</p>
     <p class="subtitle">Fall 2017</p>
@@ -53,21 +79,21 @@
 
 <div class="section-container">
     <div class="grid-row">
-        <div class="grid-cell">
+        <div class="grid-cell flex-grow flex-shrink">
             <img src="/assets/images/mirror_ball2.png">
             <p class="subtitle">First creation in Blender: a metal ball floating above a checkerboard plane, with a green light.</p>
         </div>
-        <div class="grid-cell">
+        <div class="grid-cell flex-grow flex-shrink">
             <img src="/assets/images/mirror_balls_sky.png">
             <p class="subtitle">Recreation of sphere model with better materials, lighting, and an HDRI (skybox).</p>
         </div>
     </div>
     <div class="grid-row">
-        <div class="grid-cell">
+        <div class="grid-cell flex-grow flex-shrink">
             <img src="/assets/images/mug.png">
             <p class="subtitle">First attempt at a coffee mug. The model itself was pretty poor, but I was pleased with the material and lighting.</p>
         </div>
-        <div class="grid-cell">
+        <div class="grid-cell flex-grow flex-shrink">
             <img src="/assets/images/mug2.png">
             <p class="subtitle">Second attempt at a coffee mug. Much better model, as well as more realistic material, lighting, and environment. It looks almost real!</p>
         </div>
@@ -80,7 +106,7 @@
 
 <div class="section-container">
     <div class="grid-row">
-        <div class="grid-cell">
+        <div class="grid-cell flex-grow">
             <img src="/assets/images/rings1-edit.png">
         </div>
     </div>

@@ -1,0 +1,7 @@
+<div class="inline link-container">
+    <div class="link-img" #img
+        [style.background]="'url(' + currImg + ')'"
+        [style.display]="display">
+    </div>
+    <a [href]="href" (mouseover)="playImg()" (mouseout)="rewindImg()" target="_blank"><ng-content></ng-content></a>
+</div>

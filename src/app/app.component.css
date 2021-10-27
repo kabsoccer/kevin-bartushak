@@ -1,6 +1,7 @@
 .page-header {
     background-color: #6C875A;
-    padding: 15px 0 10px 30px;
+    padding: 15px 15px 10px 30px;
+    justify-content: space-between;
 }
 
 .main-body {
@@ -15,4 +16,30 @@
     height: 5%;
     align-items: center;
     justify-content: center;
+}
+
+.footer p {
+    color: #506768;
+}
+
+app-nav-list {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.social-container {
+    margin-right: 50px;
+}
+
+.social-link {
+    margin-top: 0;
+    line-height: 0;
+    padding-left: 20px;
+}
+
+.social-link>img:hover {
+    outline: #506768 solid 5px;
+    outline-offset: 4px;
+    outline-style: ridge;
 }
