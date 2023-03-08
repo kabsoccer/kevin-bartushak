@@ -12,6 +12,7 @@ import { GameDevPanelComponent } from './panels/game-dev-panel/game-dev-panel.co
 import { HomePanelComponent } from './panels/home-panel/home-panel.component';
 import { AnimatedLinkComponent } from './animated-link/animated-link.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,14 @@ import { TooltipComponent } from './tooltip/tooltip.component';
     GameDevPanelComponent,
     HomePanelComponent,
     AnimatedLinkComponent,
-    TooltipComponent
+    TooltipComponent,
+    MatSlideToggleModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+  ],
+  exports: [
   ],
   providers: [],
   bootstrap: [AppComponent]

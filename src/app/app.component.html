@@ -5,6 +5,9 @@
     </h1>
     <div class="social-container h-flex">
       <div class="social-link">
+        <mat-slide-toggle>Slide me!</mat-slide-toggle>
+      </div>
+      <div class="social-link">
         <a href="https://twitter.com/KbPixel" class="social-link" (mouseenter)="tooltip1.show()" (mouseleave)="tooltip1.hide()" target="_blank"><img src="/kevin-bartushak/assets/images/twitter.png"></a>
         <app-tooltip #tooltip1 [text]="'Twitter'" [position]="'bottom'"></app-tooltip>
       </div>

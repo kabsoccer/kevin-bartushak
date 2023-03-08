@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { TooltipComponent } from './tooltip/tooltip.component';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-root',
