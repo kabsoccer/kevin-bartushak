@@ -1,9 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     cursor: url("/kevin-bartushak/assets/ui/cursor-opaque.png") 4 1, auto;
-    font-family: "pixel";
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-family: "pixel";
 }
 
 html, body {
@@ -166,4 +169,8 @@ iframe {
 
 app-tooltip {
     position: absolute;
+}
+
+#mat-mdc-slide-toggle-1-label {
+    font-family: 'pixel';
 }

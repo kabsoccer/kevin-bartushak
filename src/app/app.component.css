@@ -43,3 +43,7 @@ app-nav-list {
     outline-offset: 4px;
     outline-style: ridge;
 }
+
+mat-slide-toggle {
+    margin-top: 10px;
+}

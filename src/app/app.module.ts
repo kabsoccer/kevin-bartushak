@@ -13,6 +13,7 @@ import { HomePanelComponent } from './panels/home-panel/home-panel.component';
 import { AnimatedLinkComponent } from './animated-link/animated-link.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,12 +26,13 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     GameDevPanelComponent,
     HomePanelComponent,
     AnimatedLinkComponent,
-    TooltipComponent,
-    MatSlideToggleModule
+    TooltipComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSlideToggleModule,
+    FormsModule
   ],
   exports: [
   ],
